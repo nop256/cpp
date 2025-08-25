@@ -1,0 +1,35 @@
+debugger
+lldb ./executable
+break set -n main
+	1 breakpoint set
+run
+
+stream > data structure: abstract type
+writing to stream => std::cout
+	stream insertion operator: <<
+
+reading from a stream: std::cin and >> operator
+	stream extraction operator: >>
+
+int : float : double
+sizeof(variable);
+signed/unsigned : short/long
+
+booleans:
+bool : Values: true or false
+
+text
+
+ponters
+*ptr
+void
+int
+
+c++ if statement:
+if([condition]) {
+	statements;
+} else if() {
+	statements;
+} else {
+	statements;
+}

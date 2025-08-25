@@ -2,5 +2,8 @@
 
 int main()
 /*{std::cout << "Hello, world." <<std::endl;}*/
-{std::cout << "Hello, world.\n\n\n\n\n";}
+{
+	std::cout << "Hello, world.\n";
+	return 1;
+}
 
